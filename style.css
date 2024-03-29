@@ -1,0 +1,123 @@
+body {
+    background-image: url(bg.jpg);
+    background-size: cover;
+    padding: 20px;
+}
+
+#div1 {
+    text-align: center;
+}
+#heading {
+    display: inline-block;
+    background-image: linear-gradient(to right, rgb(168, 186, 245), rgb(255, 203, 203), rgb(253, 177, 177), rgb(168, 186, 245));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#div2 {
+    display: inline-block;
+    border: 1px solid;
+    padding: 30px 20px 30px 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(184, 196, 233), rgb(241, 208, 208), rgb(255, 214, 214), rgb(199, 207, 233));
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+#i1 {
+    border: none;
+    border-radius: 30px;
+    height: 30px;
+}
+
+#i2:hover {
+    background-color: black;
+    color: white;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+}
+
+#city {
+    color: white;
+}
+
+#temp {
+    color: white;
+    position: absolute;
+    top: 287px;
+    font-size: 48px;
+}
+
+.imgWH {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -15px;
+}
+
+.box {
+    font-size: 10px;
+    position: relative;
+    top: -44px;
+    left: 10px;
+    color: white;
+}
+
+#wind {
+    position: absolute;
+    top: 40px;
+    right: -25px;
+}
+
+#ws {
+    display: none;
+    position: relative;
+    top: 10px;
+    right: -34px;
+}
+
+#humidity {
+    position: absolute;
+    top: 40px;
+}
+
+#h {
+    display: none;
+    position: relative;
+    top: 10px;
+}
+
+#imgw {
+    display: none;
+    position: relative;
+    right: -34px;
+}
+
+#weather {
+    position: relative;
+    top: -20px;
+}
+
+#imgh {
+    display: none;
+}
+
+#p1 {
+    display: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
